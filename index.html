@@ -252,7 +252,70 @@
                     </div>
                 </div>
             </section>
+            <section
+                class="bg-[url(./assets/appointment.jpg)] bg-center bg-no-repeat py-[125px] px-[60px] flex flex-col gap-[40px] md:px-[195px]"
+            >
+                <div class="font-[700] md:w-3/5">
+                    <h5>Contact Us</h5>
+                    <h2 class="text-[40px] ms-2">Make an Appointment</h2>
+                </div>
+                <form
+                    action=""
+                    class="grid grid-cols-1 gap-[20px] md:w-3/5 md:grid-cols-2"
+                >
+                    <input
+                        type="text"
+                        placeholder="Full Name *"
+                        class="text-[14px] pt-[11px] pb-[15px] px-[28px] w-full bg-white rounded-md outline-0 border-1 border-[#BDBDBD] placeholder:font-[600] placeholder:text-[#BDBDBD] md:placeholder:font-[400] 7 md:placeholder:text-[#737373]"
+                    />
+                    <input
+                        type="email"
+                        placeholder="Email *"
+                        class="text-[14px] pt-[11px] pb-[15px] px-[28px] w-full bg-white rounded-md outline-0 border-1 border-[#BDBDBD] placeholder:font-[600] placeholder:text-[#BDBDBD] md:placeholder:font-[400] md:placeholder:text-[#737373]"
+                    />
+                    <select
+                        name="select"
+                        class="text-[14px] pt-[11px] pb-[15px] px-[28px] w-full bg-white rounded-md outline-0 border-1 border-[#BDBDBD] font-[600] text-[#BDBDBD] md:font-[400] md:text-[#737373]"
+                    >
+                        <option value="default" selected>Please Select</option>
+                    </select>
+                    <select
+                        name="hour"
+                        class="text-[14px] pt-[11px] pb-[15px] px-[28px] w-full bg-white rounded-md outline-0 border-1 border-[#BDBDBD] font-[600] text-[#BDBDBD]"
+                    >
+                        <option value="default" selected>4:00 Available</option>
+                    </select>
+                    <textarea
+                        placeholder="Message"
+                        class="text-[14px] pt-[11px] pb-[15px] px-[28px] w-full h-[140px] resize-none bg-white rounded-md outline-0 border-1 border-[#BDBDBD] md:col-span-full placeholder:font-[600] placeholder:text-[#BDBDBD]"
+                    ></textarea>
+                    <button
+                        type="submit"
+                        class="bg-[#23A6F0] py-[15px] px-[40px] text-white font-[700] rounded-md text-[14px] md:w-fit col-span-full"
+                    >
+                        Book Appointment
+                    </button>
+                </form>
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <div
+                class="px-[85px] py-[40px] flex flex-col gap-[50px] md:flex-row md:justify-between md:flex-wrap md:px-[195px] md:items-center"
+            >
+                <div class="flex flex-col gap-[10px]">
+                    <h3 class="text-[24px] font-[700]">
+                        Consulting Agency For Your Business
+                    </h3>
+                    <p class="text-[14px] font-[500] w-3/4 md:text-[#737373]">
+                        the quick fox jumps over the lazy dog
+                    </p>
+                </div>
+                <button
+                    class="bg-[#23A6F0] text-white font-[700] rounded-md py-[15px] px-[40px] w-fit"
+                >
+                    Contact Us
+                </button>
+            </div>
+        </footer>
     </body>
 </html>
