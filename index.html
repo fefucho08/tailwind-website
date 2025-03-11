@@ -5,11 +5,252 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
 
+        <!-- BOOTSTRAP ICONS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+
         <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+            * {
+                font-family: "Montserrat", "Lucida Sans", "Lucida Sans Regular",
+                    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+                    sans-serif;
+            }
+        </style>
     </head>
     <body>
         <header></header>
-        <main></main>
+        <main>
+            <section
+                class="flex flex-col items-center bg-[#252B42] text-white py-[30px] px-[42px] gap-[60px]"
+            >
+                <div
+                    class="text-center flex flex-col gap-[10px] tracking-[0.2px]"
+                >
+                    <h2 class="text-[40px] font-[400]">Pricing</h2>
+                    <p class="text-[14px] font-[700]">
+                        Problems trying to resolve the conflict between the two
+                        major realms of Classical physics: Newtonian mechanics
+                    </p>
+                </div>
+                <div
+                    class="flex flex-col gap-[60px] md:flex-row md:flex-wrap md:justify-center"
+                >
+                    <div
+                        class="price-card bg-white rounded-md px-[40px] py-[50px] flex flex-col items-center gap-[35px]"
+                    >
+                        <h3
+                            class="text-[#252B42] uppercase font-[700] text-[24px] text-center"
+                        >
+                            Free
+                        </h3>
+                        <h5 class="text-[#737373] font-[700] text-center w-50">
+                            Organize across all apps by hand
+                        </h5>
+                        <div
+                            class="text-[#23A6F0] flex gap-[10px] items-center md:flex-col"
+                        >
+                            <h2 class="text-[40px] font-[700]">
+                                0<span class="hidden md:inline">$</span>
+                            </h2>
+                            <div>
+                                <h3 class="font-[700] md:hidden">$</h3>
+                                <h5
+                                    class="text-[#8EC2F2] font-[600] font-[16px]"
+                                >
+                                    Per Month
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-[35px]">
+                            <ul
+                                class="list-none text-[#252B42] text-[14px] font-[600]"
+                            >
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#2DC071] text-[30px]"
+                                    ></i>
+                                    <h6>Unlimited product updates</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#2DC071] text-[30px]"
+                                    ></i>
+                                    <h6>Unlimited product updates</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#2DC071] text-[30px]"
+                                    ></i>
+                                    <h6>Unlimited product updates</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#BDBDBD] text-[30px]"
+                                    ></i>
+                                    <h6>1GB Cloud storage</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#BDBDBD] text-[30px]"
+                                    ></i>
+                                    <h6>Email and community support</h6>
+                                </li>
+                            </ul>
+                            <button
+                                class="bg-[#23A6F0] w-full rounded-md py-[15px] px-[40px] font-[14px] font-[700]"
+                            >
+                                Try for free
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="price-card bg-white rounded-md px-[40px] py-[50px] flex flex-col items-center gap-[35px] relative"
+                    >
+                        <div
+                            class="bg-[#E77C40] text-[24px] font-[700] p-[20px] flex items-center rounded-full aspect-square absolute right-[16px] top-[26px] -translate-y-1/2"
+                        >
+                            New
+                        </div>
+                        <h3
+                            class="text-[#252B42] uppercase font-[700] text-[24px] text-center"
+                        >
+                            Silver
+                        </h3>
+                        <h5 class="text-[#737373] font-[700] text-center w-50">
+                            Organize across all apps by hand
+                        </h5>
+                        <div
+                            class="text-[#23A6F0] flex gap-[10px] items-center md:flex-col"
+                        >
+                            <h2 class="text-[40px] font-[700]">
+                                9.99<span class="hidden md:inline">$</span>
+                            </h2>
+                            <div>
+                                <h3 class="font-[700] md:hidden">$</h3>
+                                <h5
+                                    class="text-[#8EC2F2] font-[600] font-[16px]"
+                                >
+                                    Per Month
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-[35px]">
+                            <ul
+                                class="list-none text-[#252B42] text-[14px] font-[600]"
+                            >
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#2DC071] text-[30px]"
+                                    ></i>
+                                    <h6>Unlimited product updates</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#2DC071] text-[30px]"
+                                    ></i>
+                                    <h6>Unlimited product updates</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#2DC071] text-[30px]"
+                                    ></i>
+                                    <h6>Unlimited product updates</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#BDBDBD] text-[30px]"
+                                    ></i>
+                                    <h6>1GB Cloud storage</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#BDBDBD] text-[30px]"
+                                    ></i>
+                                    <h6>Email and community support</h6>
+                                </li>
+                            </ul>
+                            <button
+                                class="bg-[#23A6F0] w-full rounded-md py-[15px] px-[40px] font-[14px] font-[700]"
+                            >
+                                Try for free
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="price-card bg-white rounded-md px-[40px] py-[50px] flex flex-col items-center gap-[35px]"
+                    >
+                        <h3
+                            class="text-[#252B42] uppercase font-[700] text-[24px] text-center"
+                        >
+                            Gold
+                        </h3>
+                        <h5 class="text-[#737373] font-[700] text-center w-50">
+                            Organize across all apps by hand
+                        </h5>
+                        <div
+                            class="text-[#23A6F0] flex gap-[10px] items-center md:flex-col"
+                        >
+                            <h2 class="text-[40px] font-[700]">
+                                19.99<span class="hidden md:inline">$</span>
+                            </h2>
+                            <div>
+                                <h3 class="font-[700] md:hidden">$</h3>
+                                <h5
+                                    class="text-[#8EC2F2] font-[600] font-[16px]"
+                                >
+                                    Per Month
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-[35px]">
+                            <ul
+                                class="list-none text-[#252B42] text-[14px] font-[600]"
+                            >
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#2DC071] text-[30px]"
+                                    ></i>
+                                    <h6>Unlimited product updates</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#2DC071] text-[30px]"
+                                    ></i>
+                                    <h6>Unlimited product updates</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#2DC071] text-[30px]"
+                                    ></i>
+                                    <h6>Unlimited product updates</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#BDBDBD] text-[30px]"
+                                    ></i>
+                                    <h6>1GB Cloud storage</h6>
+                                </li>
+                                <li class="flex items-center gap-[10px]">
+                                    <i
+                                        class="bi bi-check-circle-fill text-[#BDBDBD] text-[30px]"
+                                    ></i>
+                                    <h6>Email and community support</h6>
+                                </li>
+                            </ul>
+                            <button
+                                class="bg-[#23A6F0] w-full rounded-md py-[15px] px-[40px] font-[14px] font-[700]"
+                            >
+                                Try for free
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer></footer>
     </body>
 </html>
