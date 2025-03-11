@@ -10,190 +10,303 @@
     <body>
         <!-- K starts here -->
         <header>
-            <nav class="p-4 bg-[#252B42] text-white md:bg-inherit md:absolute md:z-2 md:w-full md:px-32">
+            <nav
+                class="p-4 bg-[#252B42] text-white md:bg-inherit md:absolute md:z-2 md:w-full md:px-32"
+            >
                 <div class="flex justify-between">
                     <a class="p-2 text-2xl font-bold" href="#">BrandName</a>
                     <!-- desktop menu -->
                     <div class="hidden md:inline-block">
                         <ul class="flex flex-row m-0">
-                        <li class="m-2"><a class="" href="#">Home</a></li>
-                        <li class="m-2"><a class="" href="#">Product</a></li>
-                        <li class="m-2"><a class="" href="#">Pricing</a></li>
-                        <li class="m-2"><a class="" href="#">Contact</a></li>
+                            <li class="m-2"><a class="" href="#">Home</a></li>
+                            <li class="m-2">
+                                <a class="" href="#">Product</a>
+                            </li>
+                            <li class="m-2">
+                                <a class="" href="#">Pricing</a>
+                            </li>
+                            <li class="m-2">
+                                <a class="" href="#">Contact</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- mobile icon menu + toggle-->
                     <div class="flex items-center gap-4 md:hidden">
-                        <img src="./assets/search.svg">
-                        <img src="./assets/shopping.svg">
+                        <img src="./assets/search.svg" />
+                        <img src="./assets/shopping.svg" />
                         <label for="menu-toggle" class="cursor-pointer">
-                            <img src="./assets/menu.svg">
+                            <img src="./assets/menu.svg" />
                         </label>
                     </div>
                     <!-- desktop menu -->
                     <div class="hidden md:flex justify-right">
                         <button type="button" class="mx-4">Login</button>
-                        <button type="button" class="mx-4 bg-[#23A6F0] rounded-sm px-6">Become a member<img src="./assets/arrow.svg" class="pl-4 inline-block"></button>
+                        <button
+                            type="button"
+                            class="mx-4 bg-[#23A6F0] rounded-sm px-6"
+                        >
+                            Become a member<img
+                                src="./assets/arrow.svg"
+                                class="pl-4 inline-block"
+                            />
+                        </button>
                     </div>
                 </div>
             </nav>
-          
+
             <!-- Toggle menu -->
-            <input type="checkbox" id="menu-toggle" class="hidden peer">
-            <div class="p-4 bg-[#252B42] w-full opacity-90 z-16 hidden peer-checked:block absolute">
+            <input type="checkbox" id="menu-toggle" class="hidden peer" />
+            <div
+                class="p-4 bg-[#252B42] w-full opacity-90 z-16 hidden peer-checked:block absolute"
+            >
                 <ul class="list-unstyled text-center text-white">
-                    <li class="m-2 p-4"><a class="text-4xl" href="#">Home</a></li>
-                    <li class="m-2 p-4"><a class="text-4xl" href="#">Product</a></li>
-                    <li class="m-2 p-4"><a class="text-4xl" href="#">Pricing</a></li>
-                    <li class="m-2 p-4 mb-16"><a class="text-4xl" href="#">Contact</a></li>
+                    <li class="m-2 p-4">
+                        <a class="text-4xl" href="#">Home</a>
+                    </li>
+                    <li class="m-2 p-4">
+                        <a class="text-4xl" href="#">Product</a>
+                    </li>
+                    <li class="m-2 p-4">
+                        <a class="text-4xl" href="#">Pricing</a>
+                    </li>
+                    <li class="m-2 p-4 mb-16">
+                        <a class="text-4xl" href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
         </header>
         <main>
             <!-- section1 -->
-            <section class="px-16 text-center md:text-left relative w-full
-                bg-[url('./assets/hero-cover.jpg')] 
-                bg-[size:400%_auto] bg-[position:70%] 
-                before:absolute before:inset-0 before:bg-black before:opacity-70 
-                md:bg-[size:auto] md:bg-[position:center] md:before:bg-transparent
-                md:before:bg-gradient-to-r md:before:from-black/100 md:before:to-transparent/30
-                md:before:opacity-100">
+            <section
+                class="px-16 text-center md:text-left relative w-full bg-[url('./assets/hero-cover.jpg')] bg-[size:400%_auto] bg-cover bg-[position:70%] bg-no-repeat before:absolute before:inset-0 before:bg-black before:opacity-70 md:bg-[position:center] md:before:bg-transparent md:before:bg-gradient-to-r md:before:from-black/100 md:before:to-transparent/30 md:before:opacity-100"
+            >
                 <div class="relative z-10 md:p-20">
-                    <h1 class="text-5xl font-bold leading-[60px] py-10 text-white md:w-lg md:leading-[70px] md:pb-4">We Ensure A Best Insurance Service</h1>
+                    <h1
+                        class="text-5xl font-bold leading-[60px] py-10 text-white md:w-lg md:leading-[70px] md:pb-4"
+                    >
+                        We Ensure A Best Insurance Service
+                    </h1>
                     <p class="py-5 text-lg text-white md:w-2xs">
-                        We know how large objects will act, 
-                        but things on a small scale.
+                        We know how large objects will act, but things on a
+                        small scale.
                     </p>
                     <div class="flex flex-col items-center md:flex-row">
-                        <button type="button" class="md:mr-4 my-2 px-5 py-2 bg-[#23A6F0] text-white rounded-3xl">Get Quote Now</button>
-                        <button type="button" class="my-2 px-8 py-2 text-[#23A6F0] rounded-3xl border border-[#23A6F0] md:text-white md:border-white">Learn More</button>
+                        <button
+                            type="button"
+                            class="md:mr-4 my-2 px-5 py-2 bg-[#23A6F0] text-white rounded-3xl"
+                        >
+                            Get Quote Now
+                        </button>
+                        <button
+                            type="button"
+                            class="my-2 px-8 py-2 text-[#23A6F0] rounded-3xl border border-[#23A6F0] md:text-white md:border-white"
+                        >
+                            Learn More
+                        </button>
                     </div>
                 </div>
             </section>
-        
+
             <!-- section2 -->
-            <section class="px-16 py-20 text-center bg-[#252B42] text-white flex flex-col md:flex-row md:justify-center md:gap-x-24">
+            <section
+                class="px-16 py-20 text-center bg-[#252B42] text-white flex flex-col md:flex-row md:justify-center md:gap-x-24"
+            >
                 <div class="py-10 flex flex-col items-center">
-                    <img src="./assets/book.svg">
+                    <img src="./assets/book.svg" />
                     <h3 class="font-medium py-2 md:pt-8">Peace of Mind</h3>
                     <p class="text-sm font-extralight">
-                        So it really behaves like neither. 
-                        <br>Now we have given up. 
+                        So it really behaves like neither.
+                        <br />Now we have given up.
                     </p>
                 </div>
                 <div class="py-10 flex flex-col items-center">
-                    <img src="./assets/save.png">
+                    <img src="./assets/save.png" />
                     <h3 class="font-medium py-2 md:pt-8">Set For Life</h3>
                     <p class="text-sm font-extralight">
-                        They were used to create the 
-                        <br>machines that launched 
+                        They were used to create the
+                        <br />machines that launched
                     </p>
                 </div>
                 <div class="py-10 flex flex-col items-center">
-                    <img src="./assets/people.png">
+                    <img src="./assets/people.png" />
                     <h3 class="font-medium py-2 md:pt-8">100% Satisfaction</h3>
                     <p class="text-sm font-extralight">
-                        So it really behaves like neither. 
-                        <br>Now we have given up. 
+                        So it really behaves like neither.
+                        <br />Now we have given up.
                     </p>
                 </div>
             </section>
-        
+
             <!-- section3 -->
             <section class="px-10 py-10 text-center text-white bg-[#8EC2F2]">
                 <!-- mobile -->
-                <h2 class="text-4xl font-bold leading-15 py-10 text-white md:hidden">What <br>Clients Say</h2>
+                <h2
+                    class="text-4xl font-bold leading-15 py-10 text-white md:hidden"
+                >
+                    What <br />Clients Say
+                </h2>
                 <!-- desktop -->
-                <h2 class="hidden md:block md:text-4xl md:font-bold md:p-4 md:pt-20">Industry</h2>
+                <h2
+                    class="hidden md:block md:text-4xl md:font-bold md:p-4 md:pt-20"
+                >
+                    Industry
+                </h2>
                 <p class="text-sm font-extralight md:w-md md:m-auto">
-                    Problems trying to resolve the conflict between 
-                    the two major realms of Classical physics: Newtonian mechanics
+                    Problems trying to resolve the conflict between the two
+                    major realms of Classical physics: Newtonian mechanics
                 </p>
                 <div class="md:px-32 md:py-16 md:flex md:flex-row md:gap-x-32">
-                    <div class="my-10 p-7 bg-white flex flex-col text-black text-left md:relative md:pl-12">
-                        <img src="./assets/user.1.png" class="hidden md:inline-block md:absolute md:-left-12">
+                    <div
+                        class="my-10 p-7 bg-white flex flex-col text-black text-left md:relative md:pl-12"
+                    >
+                        <img
+                            src="./assets/user.1.png"
+                            class="hidden md:inline-block md:absolute md:-left-12"
+                        />
                         <h3 class="text-xl font-bold">Regina Miles</h3>
                         <p>Designer</p>
                         <div class="flex py-3">
-                            <img src="./assets/y-star.svg">
-                            <img src="./assets/y-star.svg">
-                            <img src="./assets/y-star.svg">
-                            <img src="./assets/y-star.svg">
-                            <img src="./assets/w-star.svg">
+                            <img src="./assets/y-star.svg" />
+                            <img src="./assets/y-star.svg" />
+                            <img src="./assets/y-star.svg" />
+                            <img src="./assets/y-star.svg" />
+                            <img src="./assets/w-star.svg" />
                         </div>
                         <p class="text-sm font-extralight leading-6 pr-10">
-                            This proved to be impossible using the traditional concepts of space and time. 
-                            Einstein developed a new view of time first and then space. 
-                            This proved to be impossible using the traditional concepts of space and time. 
-                            Einstein developed a new view of time first and then space.
+                            This proved to be impossible using the traditional
+                            concepts of space and time. Einstein developed a new
+                            view of time first and then space. This proved to be
+                            impossible using the traditional concepts of space
+                            and time. Einstein developed a new view of time
+                            first and then space.
                         </p>
                     </div>
-                    <div class="my-10 p-7 bg-white flex flex-col text-black text-left md:relative md:pl-12">
-                        <img src="./assets/user.2.png" class="hidden md:inline-block md:absolute md:-left-12">
+                    <div
+                        class="my-10 p-7 bg-white flex flex-col text-black text-left md:relative md:pl-12"
+                    >
+                        <img
+                            src="./assets/user.2.png"
+                            class="hidden md:inline-block md:absolute md:-left-12"
+                        />
                         <h3 class="text-xl font-bold">Regina Miles</h3>
                         <p>Designer</p>
                         <div class="flex py-3">
-                            <img src="./assets/y-star.svg">
-                            <img src="./assets/y-star.svg">
-                            <img src="./assets/y-star.svg">
-                            <img src="./assets/y-star.svg">
-                            <img src="./assets/w-star.svg">
+                            <img src="./assets/y-star.svg" />
+                            <img src="./assets/y-star.svg" />
+                            <img src="./assets/y-star.svg" />
+                            <img src="./assets/y-star.svg" />
+                            <img src="./assets/w-star.svg" />
                         </div>
                         <p class="text-sm font-extralight leading-6 pr-10">
-                            This proved to be impossible using the traditional concepts of space and time. 
-                            Einstein developed a new view of time first and then space. 
-                            This proved to be impossible using the traditional concepts of space and time. 
-                            Einstein developed a new view of time first and then space.
+                            This proved to be impossible using the traditional
+                            concepts of space and time. Einstein developed a new
+                            view of time first and then space. This proved to be
+                            impossible using the traditional concepts of space
+                            and time. Einstein developed a new view of time
+                            first and then space.
                         </p>
                     </div>
                 </div>
             </section>
-        
+
             <!-- section4 -->
             <section class="px-10 py-10 text-center text-white bg-[#252B42]">
                 <!-- mobile -->
-                <h2 class="text-4xl font-bold leading-15 p-10 pb-0 text-white md:hidden">We Are Optimists Who Love To Work Toghether</h2>
+                <h2
+                    class="text-4xl font-bold leading-15 p-10 pb-0 text-white md:hidden"
+                >
+                    We Are Optimists Who Love To Work Toghether
+                </h2>
                 <!-- desktop -->
-                <h2 class="hidden md:block md:text-4xl md:font-bold md:pt-16">Industry</h2>
-                <p class="text-sm font-extralight p-10 md:w-lg md:m-auto md:pb-16 md:p-4">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
-                
+                <h2 class="hidden md:block md:text-4xl md:font-bold md:pt-16">
+                    Industry
+                </h2>
+                <p
+                    class="text-sm font-extralight p-10 md:w-lg md:m-auto md:pb-16 md:p-4"
+                >
+                    Problems trying to resolve the conflict between the two
+                    major realms of Classical physics: Newtonian mechanics
+                </p>
+
                 <div class="md:flex md:justify-between md:gap-x-8">
-                    <div class="bg-[url('./assets/post.1.jpg')] aspect-3/4 flex flex-col justify-end mb-7 w-full relative bg-no-repeat bg-cover
-                    before:relative before:inset-0 before:bg-gradient-to-t before:from-black/50 before:to-transparent before:z-0">
+                    <div
+                        class="bg-[url('./assets/post.1.jpg')] aspect-3/4 flex flex-col justify-end mb-7 w-full relative bg-no-repeat bg-cover before:relative before:inset-0 before:bg-gradient-to-t before:from-black/50 before:to-transparent before:z-0"
+                    >
                         <div class="p-5 text-left absolute">
                             <p class="text-sm md:text-xs">Tax Management</p>
-                            <p class="text-xl font-bold md:font-normal md:text-sm  my-2">Life Tips From Top Ten<br> Adventure Travelers</p>
-                            <button type="button" class="bg-[#23A6F0] my-2 px-6 py-2 text-white rounded-3xl text-xs font-medium">View Project</button>
+                            <p
+                                class="text-xl font-bold md:font-normal md:text-sm my-2"
+                            >
+                                Life Tips From Top Ten<br />
+                                Adventure Travelers
+                            </p>
+                            <button
+                                type="button"
+                                class="bg-[#23A6F0] my-2 px-6 py-2 text-white rounded-3xl text-xs font-medium"
+                            >
+                                View Project
+                            </button>
                         </div>
                     </div>
-                    <div class="bg-[url('./assets/post.2.jpg')] aspect-3/4 flex flex-col justify-end mb-7 md:w-full relative bg-no-repeat bg-cover
-                    before:absolute before:inset-0 before:bg-gradient-to-t before:from-black/50 before:to-transparent before:z-0">
+                    <div
+                        class="bg-[url('./assets/post.2.jpg')] aspect-3/4 flex flex-col justify-end mb-7 md:w-full relative bg-no-repeat bg-cover before:absolute before:inset-0 before:bg-gradient-to-t before:from-black/50 before:to-transparent before:z-0"
+                    >
                         <div class="p-5 text-left relative">
                             <p class="text-sm md:text-xs">Tax Management</p>
-                            <p class="text-xl font-bold md:font-normal md:text-sm my-2">Life Tips From Top Ten<br> Adventure Travelers</p>
-                            <button type="button" class="bg-[#23A6F0] my-2 px-6 py-2 text-white rounded-3xl text-xs font-medium">View Project</button>
+                            <p
+                                class="text-xl font-bold md:font-normal md:text-sm my-2"
+                            >
+                                Life Tips From Top Ten<br />
+                                Adventure Travelers
+                            </p>
+                            <button
+                                type="button"
+                                class="bg-[#23A6F0] my-2 px-6 py-2 text-white rounded-3xl text-xs font-medium"
+                            >
+                                View Project
+                            </button>
                         </div>
                     </div>
-                    <div class="bg-[url('./assets/post.3.jpg')] aspect-3/4 flex flex-col justify-end mb-7 md:w-full relative bg-no-repeat bg-cover
-                    before:absolute before:inset-0 before:bg-gradient-to-t before:from-black/50 before:to-transparent before:z-0">
+                    <div
+                        class="bg-[url('./assets/post.3.jpg')] aspect-3/4 flex flex-col justify-end mb-7 md:w-full relative bg-no-repeat bg-cover before:absolute before:inset-0 before:bg-gradient-to-t before:from-black/50 before:to-transparent before:z-0"
+                    >
                         <div class="p-5 text-left relative">
                             <p class="text-sm md:text-xs">Tax Management</p>
-                            <p class="text-xl font-bold md:font-normal my-2 md:text-sm ">Life Tips From Top Ten<br> Adventure Travelers</p>
-                            <button type="button" class="bg-[#23A6F0] my-2 px-6 py-2 text-white rounded-3xl text-xs font-medium">View Project</button>
+                            <p
+                                class="text-xl font-bold md:font-normal my-2 md:text-sm"
+                            >
+                                Life Tips From Top Ten<br />
+                                Adventure Travelers
+                            </p>
+                            <button
+                                type="button"
+                                class="bg-[#23A6F0] my-2 px-6 py-2 text-white rounded-3xl text-xs font-medium"
+                            >
+                                View Project
+                            </button>
                         </div>
                     </div>
-                    <div class="bg-[url('./assets/post.4.jpg')] aspect-3/4 flex flex-col justify-end mb-7 md:w-full relative bg-no-repeat bg-cover
-                    before:absolute before:inset-0 before:bg-gradient-to-t before:from-black/50 before:to-transparent before:z-0">
+                    <div
+                        class="bg-[url('./assets/post.4.jpg')] aspect-3/4 flex flex-col justify-end mb-7 md:w-full relative bg-no-repeat bg-cover before:absolute before:inset-0 before:bg-gradient-to-t before:from-black/50 before:to-transparent before:z-0"
+                    >
                         <div class="p-5 text-left relative">
                             <p class="text-sm md:text-xs">Tax Management</p>
-                            <p class="text-xl font-bold md:font-normal my-2 md:text-sm ">Life Tips From Top Ten<br> Adventure Travelers</p>
-                            <button type="button" class="bg-[#23A6F0] my-2 px-6 py-2 text-white rounded-3xl text-xs font-medium">View Project</button>
+                            <p
+                                class="text-xl font-bold md:font-normal my-2 md:text-sm"
+                            >
+                                Life Tips From Top Ten<br />
+                                Adventure Travelers
+                            </p>
+                            <button
+                                type="button"
+                                class="bg-[#23A6F0] my-2 px-6 py-2 text-white rounded-3xl text-xs font-medium"
+                            >
+                                View Project
+                            </button>
                         </div>
                     </div>
                 </div>
             </section>
-  
-
         </main>
         <footer></footer>
     </body>
